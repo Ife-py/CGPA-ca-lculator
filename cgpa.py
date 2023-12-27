@@ -35,22 +35,22 @@ for i in range(a):
     print("##################################################################")
     total_units += course_unit
     if course_grade == "A":
-        score=5
+        score = 5
         
     elif course_grade == "B":
-        score=4
-        
+        score = 4
+   
     elif course_grade == "C":
-        score=3
+        score = 3
         
     elif course_grade == "D":
-        score=2
+        score = 2
         
     elif course_grade == "E":
-        score=1
+        score = 1
         
     elif course_grade == "F":
-        score=0
+        score = 0
 
     points += score
     first_point_generated= score * course_unit
@@ -62,6 +62,7 @@ print(f"these are your points optained",points)
 Cgpa= tryings / total_units
 print(Cgpa)
 cgpa =float(tryings/ total_units)
+print(cgpa)
 print(f"your cgpa is",Cgpa )
 #print(point)
 classs = ""
