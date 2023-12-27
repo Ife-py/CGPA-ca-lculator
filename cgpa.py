@@ -10,7 +10,7 @@ logo = '''
   \_____\_____|_| /_/    \_\  \_____/_/    \_|______\_____|\____/|______/_/    \_|_|  \____/|_|  \_\
                                                                                                     
 '''
-
+#welcome message to be printed out
 print(logo)
 
 print('welcome to ife and humanx CGPA generator \n hope you are supplying the correct data')
@@ -18,7 +18,7 @@ print("Loading.....")
 time.sleep(3)
 
 course_delimeter = 0
-
+#defining our constants
 a = int(input('enter your number of courses this semester: '))
 #constants
 total_units = 0
@@ -26,6 +26,7 @@ total_point = 0
 points = 0
 score= 0
 tryings=0
+#for loop to iterate throough our coonstants and get our values for gpa calculator
 for i in range(a):
     course_code = input("Enter your course: ")
     course_grade = input("Enter your grade: ")
